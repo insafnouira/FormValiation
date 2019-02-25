@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Validition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body class="page">
+    <main  class="main">
+            <form class="form" >
+                <div class="name">
+                    <p class="p-name">Name:</p><br>
+                    <input type="text" name="firstname" class="input text-Name">
+                    <br>
+                </div>
+                <div class="address">
+                        <p>Arddress:</p><br>
+                        <input type="text" name="Adress" class="input text-address">
+                        <br>
+                </div>
+                <div class="email">
+                        <p class="email-address">E-mail Arddress:</p><br>
+                        <input type="text" name="EmailAdress" class="input text-email" id="email">
+                        <br>
+                </div>   
+                <div class="Password">
+                        <p>Password:</p><br>
+                        <input type="password" name="Password" class="input text-password">
+                        <br>
+                </div>
+                <div class="comments">
+                        <p>Comments:</p><br>
+                        
+                        <textarea name="message" rows="10" cols="30" class="input text-comments">
+                                
+                                </textarea>
+                </div>
+                <div class="button">
+                        <input type="submit" name="Submit" value="Submit" class="input button-submit" id="submit" onclick="ValidateEmail()" >
+                        <br>
+                        <input type="reset" name="Reset" value="Reset" class="input button-reset">
+                </div>
+                    
+            </form>
+
+
+
+
+
+
+
+
+
+    </main>
+    <script src="form.js"></script>
+</body>
+</html>
